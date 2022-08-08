@@ -1,5 +1,6 @@
 package com.fastcampus.board.dto;
 
+import com.fastcampus.board.entity.Board;
 import lombok.*;
 
 @Getter
@@ -14,4 +15,5 @@ public class PostDto {
     private String nickName;
     private String title;
     private String content;
-}
+
+    }
