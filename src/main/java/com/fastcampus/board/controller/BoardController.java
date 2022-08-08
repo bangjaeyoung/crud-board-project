@@ -58,18 +58,21 @@ public class BoardController {
         PostDto postDto = new PostDto();
 
         if(postList.isEmpty()) {
+
             postList.add(new PostDto());
         }
         else {
+
             postList.add(postDto);
         }
 
-        // 수정, 삭제를 위해 만들어둔 코드
+        // 수정, 삭제 코드가 잘 구현되는지 확인하기 위해 만들어둔 코드
         postList.add(new PostDto(1, "Steve", "example", "ex"));
         postList.add(new PostDto(2, "Harry", "example2", "ex2"));
         postList.add(new PostDto(3, "Tom", "example3", "ex3"));
 
         model.addAttribute("postList", postList);
+
         return "index";
     }
 

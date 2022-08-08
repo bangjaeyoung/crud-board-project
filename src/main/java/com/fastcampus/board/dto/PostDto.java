@@ -15,5 +15,4 @@ public class PostDto {
     private String nickName;
     private String title;
     private String content;
-
-    }
+}
