@@ -1,6 +1,5 @@
 package com.fastcampus.board.dto;
 
-import com.fastcampus.board.entity.Board;
 import lombok.*;
 
 @Getter
