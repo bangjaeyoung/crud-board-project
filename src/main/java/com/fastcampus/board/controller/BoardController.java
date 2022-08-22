@@ -16,8 +16,6 @@ import java.util.Optional;
 @Controller
 public class BoardController {
     // TODO BoardController는 JSP를 이용한 화면 로직과 연결되어 있습니다.
-    // 다른 부분은 바꾸지 말고 TODO 부분만 작성해주시기를 권장합니다 :)
-    // TODO please write code on only TODO part in BoardController
 
     @Autowired
     BoardRepository boardRepository;
