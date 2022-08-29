@@ -29,7 +29,6 @@ public class BoardController {
         board.setSeq((int) postDto.getPostId());
 
         if(postDto.getNickName().equals("") || postDto.getTitle().equals("") || postDto.getContent().equals("")) {
-
             System.out.println("ERROR! Please enter the information correctly!");
 
             return "redirect:/";
